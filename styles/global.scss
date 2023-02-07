@@ -1,0 +1,24 @@
+/*
+    File Name   : global.scss
+    Created     : on 18:30 at Feb 06, 2023
+    Description : グローバルに適用されるスタイル
+
+    Copyright 2023 Shogo Kitada All Rights Reserved.
+        contact@shogo0x2e.com (Twitter, GitHub: @shogo0x2e)
+
+    I would be happy to notify me if you use part of my code.
+*/
+
+/*
+  こういう色がいいな:
+  https://turbulent.ca/
+*/
+$base-color: #001528;
+$main-color: #04e3ff;
+$tone-color: #ffffff;
+
+
+* {
+    background-color: $base-color;
+    color: $main-color;
+}
