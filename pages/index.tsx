@@ -18,8 +18,6 @@ export default function Home() {
     <>
       <Head>
         <title>Shogo Kitada</title>
-        <meta name="description" content="This site provides detailed information about Shogo Kitada (shogo0x2e)." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
         <Naviagtion />
