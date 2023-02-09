@@ -10,8 +10,21 @@
 */
 
 .navigator {
+
+  background-color: var(--base-color);
+
+  // Home.module.scss と対応
+  height: 88px;
+
+  // 子供達を真ん中を空けるように配置
   display: flex;
   justify-content: space-between;
+
+  // スクロールしても上に表示するよう固定
+  position: fixed;
+  top: 0;
+  // fixed にすると、幅を指定しないと幅いっぱいまで伸びない
+  width: 100%;
 }
 
 .logo {

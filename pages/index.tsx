@@ -27,8 +27,13 @@ export default function Home() {
         <title>Shogo Kitada</title>
       </Head>
       <main className={styles.main_style}>
+        
         <Navigation />
-        <Profile />
+
+        <div className={styles.container}>
+          <Profile />
+        </div>
+
       </main>
     </>
   )

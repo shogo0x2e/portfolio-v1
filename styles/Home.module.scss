@@ -9,7 +9,16 @@
     I would be happy to notify me if you use part of my code.
 */
 
-
 .main_style {
-    margin: 0;
+  // .container でナビゲーションバー分の position: fixed;
+  // をする用
+  position: relative;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+
+  // 水平中央ぞろえ
+  margin: 88px auto 0 auto;
 }

@@ -13,6 +13,8 @@ import styles from "../styles/Profile.module.scss"
 
 export default function Profile() {
   return (
-    <p className={styles.test}>プロフィール</p>
+    <>
+      <img className={styles.my_image} src="images/my_image.jpg"/>
+    </>
   )
 }
