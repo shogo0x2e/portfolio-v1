@@ -12,6 +12,7 @@ import Head from "next/head"
 import Link from "next/link"
 import styles from "@/styles/Home.module.scss"
 import Navigation from "@/components/Navigation"
+import Profile from "@/components/Profile"
 
 export default function Home() {
   return (
@@ -26,13 +27,8 @@ export default function Home() {
         <title>Shogo Kitada</title>
       </Head>
       <main className={styles.main_style}>
-
         <Navigation />
-
-
-        {/* <Link href="/works">
-          作品たちはこちら
-        </Link> */}
+        <Profile />
       </main>
     </>
   )

@@ -42,4 +42,9 @@
     justify-content: center;
     align-items: center;
   }
+  
+  // :hover は li じゃなくて ol に対して割り当てるみたい
+  :hover {
+    cursor: pointer;
+  }
 }
