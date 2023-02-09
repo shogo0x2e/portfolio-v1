@@ -10,10 +10,15 @@
 */
 
 import styles from "../styles/Navigation.module.scss"
-import { Inconsolata } from '@next/font/google'
+import { Inconsolata, Open_Sans } from '@next/font/google'
 
 const fontLogo = Inconsolata({
   weight: "500",
+  subsets: ["latin"],
+});
+
+const fontButton = Open_Sans({
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -23,9 +28,9 @@ export default function Navigation() {
       <p className={`${styles.logo} ${fontLogo.className}`}>
         Shogo0x2e
       </p>
-      <ol>
-        <li>Home</li>
-        <li>Works</li>
+      <ol className={styles.button_container}>
+        <li className={`${fontButton.className}`}> Home </li>
+        <li className={`${fontButton.className}`}> Works </li>
       </ol>
     </nav>
   )

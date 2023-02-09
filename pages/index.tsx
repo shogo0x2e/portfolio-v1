@@ -30,9 +30,9 @@ export default function Home() {
         <Navigation />
 
 
-        <Link href="/works">
+        {/* <Link href="/works">
           作品たちはこちら
-        </Link>
+        </Link> */}
       </main>
     </>
   )

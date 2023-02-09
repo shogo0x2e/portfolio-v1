@@ -10,10 +10,36 @@
 */
 
 .navigator {
-  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  margin: 0;
-  font-size: 80px;
+  // 左の余白が欲しかった
+  margin: 24px;
+
+  font-size: 40px;
+}
+
+.button_container {
+
+  // 左の余白が欲しかった
+  margin: 24px;
+
+  // 順序番号を消去
+  list-style-type: none;
+
+  // ボタンを水平に並べる
+  display: flex;
+  justify-content: space-around;
+
+  li {
+    // 等間隔に並べばなんでもいい
+    width: 96px;
+
+    // 文字を中央に持ってくる
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
