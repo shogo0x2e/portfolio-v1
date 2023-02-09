@@ -9,16 +9,26 @@
     I would be happy to notify me if you use part of my code.
 */
 
-/*
-  こういう色がいいな:
-  https://turbulent.ca/
-*/
-$base-color: #001528;
-$main-color: #04e3ff;
-$tone-color: #ffffff;
+:root {
 
+  /*
+    こういう色がいいな:
+    https://turbulent.ca/
+  */
+  --base-color: #001528;
+  --main-color: #04e3ff;
+  --tone-color: #ffffff;
 
-* {
-    background-color: $base-color;
-    color: $main-color;
+  /*
+    デフォルトの色を設定
+  */
+  background-color: var(--base-color);
+  color: var(--main-color);
+}
+
+html, body {
+  /*
+    10px くらいの margin がデフォでついてる見たい
+  */
+  margin: 0;
 }

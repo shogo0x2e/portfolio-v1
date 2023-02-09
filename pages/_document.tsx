@@ -16,11 +16,6 @@ export default function Document() {
   return (
     <Html lang="ja">
       <Head>
-        {/*
-          SEO 用の meta タグたちちゃんと書いておきたいね
-        */}
-        <meta name="description" content="This site provides detailed information about Shogo Kitada (shogo0x2e)." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* 
           favicon 生成に使ったサイト: 
