@@ -10,7 +10,7 @@
 */
 
 import styles from "../styles/Navigation.module.scss"
-import { Inconsolata, Open_Sans } from '@next/font/google'
+import { Inconsolata, Open_Sans } from 'next/font/google'
 
 const fontLogo = Inconsolata({
   weight: "500",
